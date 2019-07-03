@@ -1,0 +1,25 @@
+{
+  "name": "mvrp-over-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "datasource.js",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.1.4",
+    "apollo-server": "^2.0.5",
+    "graphql": "^0.13.2",
+    "express": "^4.12.4",
+    "contentful-management": "^5.7.0",
+    "axios": "^0.19.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "esm": "^3.0.79"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
